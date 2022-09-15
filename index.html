@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div class="phone">
+        <div id="div1">
+            <h2>TIP CALCULATOR</h2>
+            <p id="p1">How much was your bill?</p>
+            <div id="div2">
+                <label for="billamt">$</label>
+                <input id="billamt" type="text" placeholder="Bill Amount">
+            </div>
+            <p id="p1">How was your service?</p>
+            <div id="div3">
+                <select id="serviceQual">
+                    <option selected> -- Choose an Option --</option>
+                    <option value="0.3">30% - Outstanding</option>
+                    <option value="0.25">25% - Great</option>
+                    <option value="0.2">20% - Good</option>
+                    <option value="0.15">15% - It was OK</option>
+                    <option value="0.1">10% Bad</option>
+                    <option value="0.05">5% - Terrible</option>
+                   
+                </select>
+            </div>
+            <p id="p1">How many people are sharing the bill?</p>
+            <div id="div2">
+                <input type="text" id="peopleamt" placeholder="Number of People">people
+            </div>
+            <br>
+            <br>
+            <div id="div4">
+                <button id ="calculate" type="submit">Calculate</button>
+            </div>
+            <div id="div5">
+                <h3 id="amt"></h3>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
